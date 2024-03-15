@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bannerbtn {
+  @apply text-white font-medium text-sm px-5 py-1 rounded-sm bg-slate-900 transition-all ease-in duration-200 hover:bg-white hover:text-black;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.profiletext {
+  @apply text-sm font-medium text-gray-500;
+}
+.profilebtn {
+  @apply text-white text-sm px-3 py-2 font-medium rounded-sm;
+}
